@@ -30,5 +30,11 @@ function draw ()
 
   image(t1,254,0);
     image(t2,506,217);
+      image(t3,506,217);
+        image(t4,506,217);
+           image(t5,506,217);
+             image(t6,506,217);
+
+
 
 }
