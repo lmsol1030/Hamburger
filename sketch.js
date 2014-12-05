@@ -2,5 +2,5 @@ var bg
 
 unction setup() {
 
-  createCanvas(1000, 1000);
- bg = loadImage("background.png");
+  createCanvas(1080, 720);
+  bg = loadImage("background.png");
