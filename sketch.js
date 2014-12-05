@@ -9,4 +9,10 @@ function setup() {
 function draw ()
 {
   background (bg);
+
+    fill(0);
+    noStroke();
+
+
+
 }
