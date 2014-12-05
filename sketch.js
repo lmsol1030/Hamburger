@@ -28,7 +28,7 @@ function draw ()
 
   background (bg);
 
-  image(t1,174,173);
+  image(t1,10,147);
     image(t2,506,217);
       image(t3,506,217);
         image(t4,506,217);
