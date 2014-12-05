@@ -30,9 +30,9 @@ function draw ()
 
   image(t1,10,147);
     image(t2,472,140);
-      image(t3,506,217);
-        image(t4,506,217);
-           image(t5,506,217);
+      image(t3,1012,141);
+        image(t4,53,504);
+           image(t5,476,501);
              image(t6,506,217);
 
 
