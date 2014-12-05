@@ -1,14 +1,6 @@
-function setup() {
-  createCanvas(800, 600);
-  
-  noFill();
+var bg
 
-  stroke(255, 0, 0);
+unction setup() {
 
-}
-
-function draw () 
-{
-
-	background(0);
-	ellipse(mouseX, mouseY, 100, 100)
+  createCanvas(1000, 1000);
+ bg = loadImage("background.png");
