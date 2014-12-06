@@ -41,16 +41,16 @@ function draw ()
   background (bg);
 
 
-  
+
 
     var duration = 3000;
     var timing = (new Date()%duration)/duration;
 
 
     if(timing*2 <1){
-    image(h1, timing*39,226);
+    image(h1, timing*0,226);
     } else if(timing*2 <2){
-    image(h2, timing*515,211);
+    image(h2, timing*1047,211);
     }
 
 
