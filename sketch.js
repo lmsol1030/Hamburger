@@ -9,6 +9,8 @@ var h1
 var h2
 var h3
 var h4
+var timing;
+var duration;
 
 function setup() {
 
@@ -45,6 +47,17 @@ function draw ()
              image(t6,1029,504);
 
 
+
+
+    var duration = 3000;
+    var timing = (new Date()%duration)/duration;
+
+  
+    if(timing*2 <1){
+    image(h1, timing*39,226
+    } else if(timing*2 <2){
+    image(h2, timing*515,211);
+    }
 
 
 
