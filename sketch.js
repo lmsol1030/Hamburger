@@ -16,6 +16,11 @@ function setup() {
   t4 = loadImage("t4.png");
   t5 = loadImage("t5.png");
   t6 = loadImage("t6.png");
+  
+  h1 = loadImage("h1.png");
+  h2 = loadImage("h2.png");
+  h3 = loadImage("h3.png");
+  h4 = loadImage("h4.png");
 
 
 
@@ -34,6 +39,19 @@ function draw ()
         image(t4,0,504);
            image(t5,476,501);
              image(t6,1029,504);
+
+
+    var duration = 3000;
+    var timing = (new Date()%duration)/duration;
+
+  
+    if(timing*2 <1){
+    image(h1, timing*39,226
+    } else if(timing*2 <2){
+    image(h2, timing*515,211);
+    }
+
+
 
 
 
