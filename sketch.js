@@ -9,8 +9,7 @@ var h1
 var h2
 var h3
 var h4
-var timing;
-var duration;
+
 
 function setup() {
 
