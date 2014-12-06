@@ -40,15 +40,8 @@ function draw ()
 
   background (bg);
 
-  image(t1,10,147);
-    image(t2,472,140);
-      image(t3,1012,141);
-        image(t4,0,504);
-           image(t5,476,501);
-             image(t6,1029,504);
 
-
-
+  
 
     var duration = 3000;
     var timing = (new Date()%duration)/duration;
@@ -59,6 +52,16 @@ function draw ()
     } else if(timing*2 <2){
     image(h2, timing*515,211);
     }
+
+
+  image(t1,10,147);
+    image(t2,472,140);
+      image(t3,1012,141);
+        image(t4,0,504);
+           image(t5,476,501);
+             image(t6,1029,504);
+
+
 
 
 
