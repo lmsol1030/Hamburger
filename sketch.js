@@ -48,7 +48,7 @@ function draw ()
 
 
     if(timing*2 <1){
-    image(h1, timing*0,226);
+    image(h1, timing*515,226);
     } else if(timing*2 <2){
     image(h2, timing*1047,211);
     }
