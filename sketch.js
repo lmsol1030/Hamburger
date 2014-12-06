@@ -5,6 +5,10 @@ var t3
 var t4
 var t5
 var t6
+var h1
+var h2
+var h3
+var h4
 
 function setup() {
 
